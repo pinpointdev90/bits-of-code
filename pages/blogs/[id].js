@@ -61,7 +61,6 @@ function id({ data, content, id, headings, topics }) {
         <meta name="description" content={data.Abstract} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://blogs.soumya-jit.tech/" />
         <meta property="og:title" content={data.Title} />
         <meta property="og:description" content={data.Abstract} />
         <meta
@@ -70,7 +69,6 @@ function id({ data, content, id, headings, topics }) {
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://blogs.soumya-jit.tech/" />
         <meta property="twitter:title" content={data.Title} />
         <meta property="twitter:description" content={data.Abstract} />
         <meta
